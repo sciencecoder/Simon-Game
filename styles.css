@@ -1,0 +1,158 @@
+
+
+body {
+  background: url('http://4hdwallpapers.com/wp-content/uploads/2013/05/Board-Wood-Tree-Macro-728x455.jpg') no-repeat fixed center;
+  background-size: 100vw 100vh;
+}
+
+#container {
+  height: 450px;
+  width: 450px;
+  border-radius: 50%;
+  background-color: #4d4d4d;
+  border: 30px solid #4d4d4d;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+#green-quarter {
+  height: 50%;
+  width: 50%;
+  background-color: #00b359;
+  border-top-left-radius: 90%;
+  border-right: 10px solid;
+  border-bottom: 10px solid;
+}
+
+.green-hover, .green:hover {
+  background-color: #00ff80 !important;
+}
+
+#red-quarter {
+  height: 50%;
+  width: 50%;
+  background-color: #990000;
+  border-top-right-radius: 90%;
+  border-left: 10px solid;
+  border-bottom: 10px solid;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+.red-hover, .red:hover {
+  background-color: red !important;
+}
+
+#yellow-quarter {
+  height: 50%;
+  width: 50%;
+  background-color: #ffd500;
+  border-bottom-left-radius: 90%;
+  border-right: 10px solid;
+  border-top: 10px solid;
+}
+.yellow-hover, .yellow:hover {
+  background-color: #ffff84 !important;
+}
+
+
+#blue-quarter {
+  height: 50%;
+  width: 50%;
+  background-color: #2d2d86;
+  border-bottom-right-radius: 90%;
+  border-left: 10px solid;
+  border-top: 10px solid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.blue-hover, blue:hover {
+  background-color: #4dc3ff !important;
+}
+#inner-circle {
+  height: 240px;
+  width: 240px;
+  background-color: white;
+  border-radius: 50%;
+  border: 15px solid #4d4d4d;
+  z-index: 1;
+  position: absolute;
+  bottom: 75px;
+  left: 75px;
+}
+
+h1 {
+  font-size: 3.5em;
+  font-family: cursive;
+  margin-top: 40px;
+}
+
+sup {
+  font-size: 0.4em;
+}
+
+#count {
+  height: 45px;
+  width: 60px;
+  background-color: #330000;
+  margin-left: 25px;
+  border-radius: 20%;
+  display: inline-block;
+  color: crimson;
+  font-family: monospace;
+  font-size: 2.5em;
+  padding-left: 10px;
+}
+
+#start,
+#strict {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: 115px;
+  border-radius: 50%;
+  box-shadow: 0px 2px 2px 3px #333;
+}
+
+#start {
+  background-color: red;
+  left: 100px;
+}
+
+#strict {
+  background-color: yellow;
+  left: 145px;
+}
+.strict-light {
+  background-color: black;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 150px;
+  bottom: 105px;
+}
+.strict-active {
+  background-color: red;
+}
+.button-text-container {
+  margin-left: 95px;
+}
+
+.button-text {
+  display: inline;
+  margin-right: 15px;
+}
+
+.count-text {
+  position: absolute;
+  left: 35px;
+}
